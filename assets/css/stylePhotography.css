@@ -1,0 +1,164 @@
+/* Add a white background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+
+.topnav-container {
+	margin-right: 125px;
+  display: inline-block;
+  float: right;
+  margin-bottom: 20px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav-container a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 8px;
+    text-decoration: none;
+    font-size: 18px;
+		margin-top: 50px;
+		margin-bottom: 20px;
+		margin-left: 75px;
+		font-family: font56031;
+		font-style: italic;
+		font-weight: 100;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: grey;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    color: grey;
+}
+
+#img-logo {
+  position: absolute;
+	margin-left: 125px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+  z-index: 2;
+}
+
+#img-logo-dark {
+  position: absolute;
+  margin-left: 125px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+#featured-proj-text {
+	margin: 80px 250px;
+	font-size: 22px;
+	font-family: font92851;
+	letter-spacing: 3px;
+}
+
+/* Add a black background color to the top navigation */
+.bottomnav {
+    background-color: #2F2E2E;
+    overflow: hidden;
+		height: 200px;
+		margin-top: 100px;
+    display: block;
+}
+
+.bottomnav-container {
+	margin-right: 175px;
+  display: block;
+
+}
+
+#beintouch {
+	color: white;
+	font-family: font56031;
+	font-style: italic;
+	z-index: 1;
+	margin: 50px;
+	margin-left: 250px;
+	font-size: 45px;
+	font-weight: 100;
+}
+
+#info {
+	transform: translateY(-150%);
+	z-index: 2;
+	color: #A0A09F;
+	font-family: font92851;
+	font-size: 16px;
+	padding: 2px;
+	margin-left: 40%;
+}
+
+.info-line {
+	padding: 5px;
+}
+
+.social {
+	float: right;
+	width: 42px;
+	height: 42px;
+}
+
+.page {
+  height: 800px;
+  width: 100%;
+}
+
+div.grid {
+  position: absolute;
+  width: 1000px;
+  height: 400px;
+  margin: 0 auto;
+  left: 14.5%;
+  z-index: 2;
+}
+
+div.container {
+    margin: 5px;
+    float: left;
+    width: 320px;
+    display: inline;
+}
+
+div.container img {
+    width: 100%;
+    height: auto;
+}
+
+div.overlay-grid {
+  position: absolute;
+  width: 1000px;
+  height: 400px;
+  margin: 0 auto;
+  left: 14.5%;
+  z-index: 1;
+}
+
+div.overlay-container {
+    margin: 5px;
+    float: left;
+    width: 320px;
+    display: inline;
+    background-color: grey;
+    height: 240px;
+    margin-bottom: 10px;
+    visibility: hidden;
+}
+
+div.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.show-description {
+  opacity: 0.3;
+  transition-duration: 0.4s;
+}

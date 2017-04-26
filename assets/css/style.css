@@ -1,0 +1,222 @@
+/* Add a white background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+
+.topnav-container {
+	margin-right: 125px;
+  display: inline-block;
+  float: right;
+  margin-bottom: 20px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav-container a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 8px;
+    text-decoration: none;
+    font-size: 18px;
+		margin-top: 50px;
+		margin-bottom: 20px;
+		margin-left: 75px;
+		font-family: font56031;
+		font-style: italic;
+		font-weight: 100;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: grey;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    color: grey;
+}
+
+#img-logo {
+  position: absolute;
+	margin-left: 125px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+  z-index: 2;
+}
+
+#img-logo-dark {
+  position: absolute;
+  margin-left: 125px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+#page {
+  width: 100%;
+  height: 1950px;
+}
+
+#img-mountain {
+  position: relative;
+	display: table;
+  margin: auto;
+  width: 75%;
+
+}
+
+#featured-proj-text {
+	margin: 90px 250px;
+  margin-bottom: 150px;
+	font-size: 24px;
+	font-family: font92851;
+	letter-spacing: 5px;
+  font-weight: 600;
+}
+
+
+#proj-title-1 {
+	margin-top: 100px;
+  margin-left: 340px;
+  margin-bottom: 5px;
+  margin-right: 0px;
+	font-size: 40px;
+	font-family: font56031;
+  font-style: italic;
+	letter-spacing: 3px;
+}
+
+#proj-subtitle-1 {
+	margin: 10px 450px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+	font-size: 22px;
+	font-family: font56031;
+  font-style: italic;
+	letter-spacing: 3px;
+  display: inline;
+}
+
+#proj-img-1 {
+  position: absolute;
+  right: 300px;
+  top: 1100px;
+}
+
+#line1 {
+  margin-left: 420px;
+}
+
+#proj-title-2 {
+	margin-top: 260px;
+  margin-left: 790px;
+  margin-bottom: 5px;
+  margin-right: 0px;
+	font-size: 40px;
+	font-family: font56031;
+  font-style: italic;
+	letter-spacing: 3px;
+}
+
+#proj-subtitle-2 {
+	margin: 10px 830px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+	font-size: 22px;
+	font-family: font56031;
+  font-style: italic;
+	letter-spacing: 3px;
+  display: inline;
+}
+
+#proj-img-2 {
+  position: absolute;
+  right: 730px;
+  top: 1450px;
+}
+
+#line2 {
+  margin-left: 710px;
+}
+
+#proj-title-3 {
+  margin-top: 240px;
+  margin-left: 340px;
+  margin-bottom: 5px;
+  margin-right: 0px;
+	font-size: 40px;
+	font-family: font56031;
+  font-style: italic;
+	letter-spacing: 3px;
+}
+
+#proj-subtitle-3 {
+	margin: 10px 450px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+	font-size: 22px;
+	font-family: font56031;
+  font-style: italic;
+	letter-spacing: 3px;
+  display: inline;
+}
+
+#proj-img-3 {
+  position: absolute;
+  right: 300px;
+  top: 1800px;
+}
+
+#line3 {
+  margin-left: 420px;
+}
+
+.show-description {
+  opacity: 0.3;
+  transition-duration: 0.4s;
+}
+
+
+/* Add a black background color to the top navigation */
+.bottomnav {
+    background-color: #2F2E2E;
+    overflow: hidden;
+		height: 200px;
+		margin-top: 100px;
+}
+
+.bottomnav-container {
+	margin-right: 175px;
+}
+
+#beintouch {
+	color: white;
+	font-family: font56031;
+	font-style: italic;
+	z-index: 1;
+	margin: 50px;
+	margin-left: 250px;
+	font-size: 45px;
+	font-weight: 100;
+}
+
+#info {
+	transform: translateY(-150%);
+	z-index: 2;
+	color: #A0A09F;
+	font-family: font92851;
+	font-size: 16px;
+	padding: 2px;
+	margin-left: 40%;
+}
+
+.info-line {
+	padding: 5px;
+}
+
+.social {
+	float:right;
+	width:42px;
+	height:42px;
+}
