@@ -100,7 +100,8 @@
 
 #proj-img-1 {
   position: absolute;
-  right: 300px;
+  /*right: 300px;*/
+  left: 700px;
   top: 1100px;
 }
 
@@ -132,7 +133,8 @@
 
 #proj-img-2 {
   position: absolute;
-  right: 730px;
+  /*right: 730px;*/
+  left: 270px;
   top: 1450px;
 }
 
@@ -164,7 +166,8 @@
 
 #proj-img-3 {
   position: absolute;
-  right: 300px;
+  /*right: 300px;*/
+  left: 700px;
   top: 1800px;
 }
 
