@@ -28,7 +28,7 @@ $(document).ready(function() {
 
  $("button").click(function() {
    //window.location.href = 'https://drive.google.com/file/d/0B6zgBSF6SQM3cm5OOFJqY2lfZ0E/view';
-   $(location).attr('href', 'https://drive.google.com/file/d/0B6zgBSF6SQM3cm5OOFJqY2lfZ0E/view');
+   $(location).attr('href', 'https://drive.google.com/file/d/1WyD9ZO6BIaEDgKTyGqYti_utPtoA_TXh/view?usp=sharing');
  });
 
 
